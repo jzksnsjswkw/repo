@@ -8,6 +8,9 @@ Priority: optional
 Maintainer: jzksnsjswkw
 Installed-Size: 10188
 Depends: mobilesubstrate, com.opa334.altlist
+Icon: https://jzksnsjswkw.github.io/repo/icon.png
+Depiction: https://beta.noahsaso.com/depiction.php?pkg=pusher
+Author: Noah Saso <noahsaso@gmail.com>
 Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.noahsaso.pusher_3.0.0.beta4_iphoneos-arm64e.deb
 Size: 4706022
 MD5sum: 9c921c941361471cf8d8eb74e4e35157
@@ -24,6 +27,9 @@ Priority: optional
 Maintainer: jzksnsjswkw
 Installed-Size: 10132
 Depends: mobilesubstrate, com.opa334.altlist
+Icon: https://jzksnsjswkw.github.io/repo/icon.png
+Depiction: https://beta.noahsaso.com/depiction.php?pkg=pusher
+Author: Noah Saso <noahsaso@gmail.com>
 Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.noahsaso.pusher_3.0.0.beta4_iphoneos-arm64.deb
 Size: 4707360
 MD5sum: d2ca926b1f1f088a6d506ed53f0ceca8
