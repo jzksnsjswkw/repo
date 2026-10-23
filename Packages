@@ -22,3 +22,27 @@ Description: iOS版的 短信转发器 和 通知滤盒
  - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
  - 写 JavaScript 自定义转发逻辑
 
+Package: com.jzksnsjswkw.pusher-rootless
+Name: Pusher-rootless
+Version: 3.0.0~beta4
+Provides: com.jzksnsjswkw.pusher
+Architecture: iphoneos-arm64
+Section: Tweaks
+Priority: optional
+Maintainer: jzksnsjswkw
+Installed-Size: 10116
+Depends: mobilesubstrate, com.opa334.altlist
+Icon: https://jzksnsjswkw.github.io/repo/icon.png
+Depiction: https://jzksnsjswkw.github.io/repo/
+Author: jzksnsjswkw <214893178@qq.com>
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
+Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.jzksnsjswkw.pusher_3.0.0.beta4_iphoneos-arm64.deb
+Size: 4681302
+MD5sum: 1f7ae7797d2af6f51fed4f751253a6d3
+SHA256: cab6280321ef20c2d52694ba044a7d76d6eb36c05f8b0ffa96c18e9b1645104e
+Description: iOS版的 短信转发器 和 通知滤盒
+ 将设备上的通知转发到你想要的地方，不仅限于短信，还可拦截特定通知，让其不在设备上显示。
+ .
+ - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
+ - 写 JavaScript 自定义转发逻辑
+
