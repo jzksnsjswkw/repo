@@ -6,4 +6,3 @@ Codename: ios
 Architectures: iphoneos-arm64e iphoneos-arm64
 Components: main
 Description: Notification forwarding for iOS
-Icon: https://jzksnsjswkw.github.io/repo/avatar.png
