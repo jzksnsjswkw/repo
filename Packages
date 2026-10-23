@@ -6,16 +6,16 @@ Architecture: iphoneos-arm64e
 Section: Tweaks
 Priority: optional
 Maintainer: jzksnsjswkw
-Installed-Size: 10120
+Installed-Size: 10132
 Depends: mobilesubstrate, com.opa334.altlist
 Icon: https://jzksnsjswkw.github.io/repo/icon.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
 Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.jzksnsjswkw.pusher_3.0.0.beta4_iphoneos-arm64e.deb
-Size: 4690634
-MD5sum: 4110333b01f93b19cdc8376cee6de43e
-SHA256: fbeb180a056c55b8121e477a2b4d6294db1b4f54a735897e001aead03a022bf6
+Size: 4694602
+MD5sum: afcbc434ce8acb88382d645a1406f450
+SHA256: 8a79ad3ea8761d919dcaead063c6c51c2b84ea9f3fe942b7756a71632aaf8510
 Description: iOS版的 短信转发器 和 通知滤盒
  将设备上的通知转发到你想要的地方，不仅限于短信，还可拦截特定通知，让其不在设备上显示。
  .
