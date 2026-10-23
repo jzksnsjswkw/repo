@@ -1,0 +1,258 @@
+{
+ "class": "DepictionTabView",
+ "headerImage": "https://jzksnsjswkw.github.io/repo/depiction/banner.png",
+ "tintColor": "#00B14F",
+ "minVersion": "0.3",
+ "tabs": [
+  {
+   "class": "DepictionStackView",
+   "tabname": "Description",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Every notification that reaches Notification Center, forwarded to the server you already use — or to a script you wrote yourself.\n\nEach destination keeps its own app filter, device conditions and log, so a work chat and a personal reminder need not go to the same place.",
+     "useRawFormat": true
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Features",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- **Any number of destinations per service.** Several Bark servers, several webhooks, several mailboxes — each with its own settings and history.\n- **A JavaScript service you write yourself.** Define the type once; every instance reads its own values. `fetch`, `localStorage` and a per-run timeout.\n- **Notification filter.** Block or redirect by app and keyword, with several rule groups, AND/OR matching and regular expressions.\n- **A real script editor.** Syntax highlighting, line numbers, a formatter, an example library and a dry-run panel that shows every request.\n- **Per-app overrides, device and sound lists, notification-settings conditions**, and a log of what was forwarded, what was not, and why.\n- **Export and import destinations** as a file, so a second device is one tap.",
+     "useRawFormat": true
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Services",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Bark · DingTalk · Email (SMTP) · Feishu · Gotify · IFTTT · Pushbullet · Pusher Receiver · Pushover · ServerChan 3 · ServerChan Turbo · WeCom bot · WeCom webhook · WxPusher · Shortcuts · generic webhook · your own JavaScript",
+     "useRawFormat": true
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Compatibility",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "iOS",
+     "text": "15 – 16"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Jailbreak",
+     "text": "roothide and rootless, published separately"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Requires",
+     "text": "AltList (app picker)"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Before you install",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "This is a beta. **Settings from 2.x are not migrated** — upgrading starts with zero services, so note down your tokens first.",
+     "useRawFormat": true
+    }
+   ]
+  },
+  {
+   "class": "DepictionStackView",
+   "tabname": "插件描述",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "把每一条进入通知中心的通知，转发到你已经习惯的服务器 —— 或者转发给你自己写的脚本。\n\n每个目标都有独立的 App 过滤、设备条件和日志，所以工作群和个人提醒不必挤在同一个去处。",
+     "useRawFormat": true
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "功能",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- **同一个服务可以添加任意多个目标。** 多个 Bark 服务器、多个 Webhook、多个邮箱，各自保存自己的配置与日志。\n- **你自己写的 JavaScript 服务。** 服务类型写一次，实例各自读取自己的参数值。支持 `fetch`、`localStorage` 和每次运行的超时限制。\n- **通知过滤。** 按 App 和关键字拦截或改道通知，支持多个规则组、全部 / 任一匹配、以及正则表达式。\n- **真正能用的脚本编辑器。** 语法高亮、行号、格式化、示例库，还有一个会把每个请求都列出来的试运行面板。\n- **单 App 覆盖、设备与声音列表、通知设置条件**，以及完整的转发日志：哪些转发了、哪些没有、为什么。\n- **导入导出目标配置**，第二台设备一次恢复。",
+     "useRawFormat": true
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "内置服务",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Bark · 钉钉 · 邮件（SMTP）· 飞书 · Gotify · IFTTT · Pushbullet · Pusher Receiver · Pushover · Server酱³ · Server酱·Turbo版 · 企业微信·机器人 · 企业微信·消息推送 · WxPusher · 快捷指令 · 自定义 Webhook · 你自己写的 JavaScript",
+     "useRawFormat": true
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "兼容性",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "系统",
+     "text": "iOS 15 – 16"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "越狱",
+     "text": "roothide 与 rootless 分别发布"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "依赖",
+     "text": "AltList（App 选择器）"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "安装前请注意",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "当前为测试版。**2.x 的配置不会自动迁移** —— 升级后从零个服务开始，先把 token 记下来。",
+     "useRawFormat": true
+    }
+   ]
+  },
+  {
+   "class": "DepictionStackView",
+   "tabname": "更新日志",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "3.0.0~beta4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 通知过滤：按应用和关键字拦截，支持多规则组、唯一 / 全部匹配、命中后隐藏通知或仅停止转发。\n- 新增 Gotify，用于自建推送服务器。\n- 新增 企业微信·消息推送、邮件（SMTP）、钉钉。\n- 快捷指令服务：后台静默运行，不切换到前台。\n- 修复 GoTo 空消息体、通知过滤图标缺失等问题。",
+     "useRawFormat": true
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "3.0.0~beta1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Swift 重写。**2.x 配置不兼容** —— 数据结构从「每个服务一份配置」改为「服务可添加多个实例」，不存在自动映射。",
+     "useRawFormat": true
+    }
+   ]
+  }
+ ]
+}

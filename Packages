@@ -11,28 +11,75 @@ Depends: mobilesubstrate, com.opa334.altlist
 Icon: https://jzksnsjswkw.github.io/repo/icon.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
 Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.jzksnsjswkw.pusher_3.0.0.beta4_iphoneos-arm64e.deb
-Size: 4692024
-MD5sum: 26a040f7af6f6d73a2378bf3a3bf4f90
-SHA256: 8e5d100d393fea3fcbbcf0b6d9daad3f6ecd518f86afff1fd672159adbbdb143
-Description: Push notifications to other devices
-
-Package: com.jzksnsjswkw.pusher-rootless
-Name: Pusher-rootless
-Version: 3.0.0~beta4
-Provides: com.jzksnsjswkw.pusher
-Architecture: iphoneos-arm64
-Section: Tweaks
-Priority: optional
-Maintainer: jzksnsjswkw
-Installed-Size: 10120
-Depends: mobilesubstrate, com.opa334.altlist
-Icon: https://jzksnsjswkw.github.io/repo/icon.png
-Depiction: https://jzksnsjswkw.github.io/repo/
-Author: jzksnsjswkw <214893178@qq.com>
-Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.jzksnsjswkw.pusher_3.0.0.beta4_iphoneos-arm64.deb
-Size: 4691374
-MD5sum: 1239449d38102d255dc1c6faf369853e
-SHA256: e72191bf26960796d4c1931cbd996b136be7823df866b6b5fc7921617ae6278c
-Description: Push notifications to other devices
+Size: 4692970
+MD5sum: df4df1007e6ec1b8b5719ce4a85cad53
+SHA256: 1e1fd4d731d5a930529f40b3bfaa4caa7467bd9bbf76492d88a980594002b8e9
+Description: Forward iOS notifications to Bark, Gotify, email, webhooks and your own JavaScript.
+ Pusher reads every notification that reaches Notification Center and forwards
+ it to the destinations you choose. Each destination keeps its own app filter,
+ device conditions and log, so a work chat and a personal reminder need not go
+ to the same place.
+ .
+ FEATURES
+ . * Any number of destinations per service - several Bark servers, several
+   webhooks, several mailboxes, each with its own settings and history.
+ . * Per-destination JavaScript: define a service once, and every instance reads
+   its own parameter values. Scripts get fetch, localStorage and a timeout.
+ . * Notification filter: block or redirect notifications by app and keyword,
+   with several rule groups, AND / OR matching and regular expressions.
+ . * A script editor with syntax highlighting, line numbers, a formatter and an
+   example library.
+ . * Per-app overrides, device and sound lists, notification settings
+   conditions, and a log of what was forwarded, what was not, and why.
+ . * Import and export destinations as a file, so a second device is one tap.
+ . * English and Chinese interface.
+ .
+ SERVICES
+ . Bark, DingTalk, Email (SMTP), Feishu, Gotify, IFTTT, Pushbullet, Pusher
+ Receiver, Pushover, ServerChan 3, ServerChan Turbo, WeCom bot, WeCom webhook,
+ WxPusher, Shortcuts, a generic webhook, and a service you write yourself.
+ .
+ COMPATIBILITY
+ . iOS 15 - 16. roothide and rootless builds are published separately; install
+ the one your jailbreak provides. The app picker needs AltList.
+ .
+ NOTE
+ . This is a beta. Settings from 2.x are not migrated, a few things may still
+ change, and the example Shortcut's signature expires in November 2027.
+ .
+ ----
+ .
+ 把通知从 iOS 转发到任何你已经在用的服务：Bark、Gotify、钉钉、企业微信、飞书、
+ 邮件、Webhook，或者你自己写的 JavaScript。
+ .
+ Pusher 读取每一条进入通知中心的通知，转发到你指定的目标。每个目标可以有独立的
+ App 过滤、设备条件和日志，所以工作群和个人提醒不必挤在同一个去处。
+ .
+ 功能
+ . * 同一个服务可以添加任意多个目标：多个 Bark 服务器、多个 Webhook、多个邮箱，
+   各自保存自己的配置与日志。
+ . * 每个目标独立运行 JavaScript：服务类型写一次，实例各自读取自己的参数值。
+   脚本可以使用 fetch、localStorage 和每次运行的超时限制。
+ . * 通知过滤：按 App 和关键字拦截或改道通知，支持多个规则组、全部 / 任一匹配
+   和正则表达式。
+ . * 脚本编辑器带语法高亮、行号、格式化和示例库。
+ . * 单 App 覆盖、设备与声音列表、通知设置条件，以及完整的转发日志：哪些转发了、
+   哪些没有、为什么。
+ . * 导入导出目标配置，第二台设备一次恢复。
+ . * 中英双语界面。
+ .
+ 内置服务
+ . Bark、钉钉、邮件（SMTP）、飞书、Gotify、IFTTT、Pushbullet、Pusher Receiver、
+ Pushover、Server酱³、Server酱·Turbo版、企业微信·机器人、企业微信·消息推送、
+ WxPusher、快捷指令、自定义 Webhook，以及你自己写的 JavaScript 服务。
+ .
+ 兼容性
+ . 支持 iOS 15 - 16。roothide 与 rootless 分别发布，安装与你越狱方式对应的版本。
+ App 选择器需要 AltList。
+ .
+ 说明
+ . 当前为测试版。2.x 的配置不会自动迁移，部分功能可能调整，示例快捷指令的签名
+ 将于 2027 年 11 月到期。
 
