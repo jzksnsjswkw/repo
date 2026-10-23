@@ -18,6 +18,33 @@
      "spacing": 16
     },
     {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 6,
+     "itemSize": "{207, 448}",
+     "screenshots": [
+      {
+       "accessibilityText": "Pusher",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/1-settings.png"
+      },
+      {
+       "accessibilityText": "Pusher",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/2-add.png"
+      },
+      {
+       "accessibilityText": "Pusher",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/3-instance.png"
+      },
+      {
+       "accessibilityText": "Pusher",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/4-filter.png"
+      }
+     ]
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    },
+    {
      "class": "DepictionSeparatorView"
     },
     {
