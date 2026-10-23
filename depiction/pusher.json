@@ -10,7 +10,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "Every notification that reaches Notification Center, forwarded to the server you already use — or to a script you wrote yourself.\n\nEach destination keeps its own app filter, device conditions and log, so a work chat and a personal reminder need not go to the same place.",
+     "markdown": "The SMS forwarder and notification filter for iOS\n\nForward the notifications on your device wherever you want — not just SMS — and block the ones you would rather not see.\n\n- Forward to Bark, DingTalk, WeCom, Feishu, email, Gotify, webhooks and more\n- Write JavaScript for the forwarding logic",
      "useRawFormat": true
     },
     {
@@ -146,7 +146,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "把每一条进入通知中心的通知，转发到你已经习惯的服务器 —— 或者转发给你自己写的脚本。\n\n每个目标都有独立的 App 过滤、设备条件和日志，所以工作群和个人提醒不必挤在同一个去处。",
+     "markdown": "iOS版的 短信转发器 和 通知滤盒\n\n将设备上的通知转发到你想要的地方，不仅限于短信，还可拦截特定通知，让其不在设备上显示。\n\n- 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等\n- 写 JavaScript 自定义转发逻辑",
      "useRawFormat": true
     },
     {
