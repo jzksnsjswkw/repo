@@ -1,38 +1,38 @@
-Package: com.noahsaso.pusher-roothide
+Package: com.jzksnsjswkw.pusher-roothide
 Name: Pusher-roothide
 Version: 3.0.0~beta4
-Provides: com.noahsaso.pusher
+Provides: com.jzksnsjswkw.pusher
 Architecture: iphoneos-arm64e
 Section: Tweaks
 Priority: optional
 Maintainer: jzksnsjswkw
-Installed-Size: 10188
+Installed-Size: 10120
 Depends: mobilesubstrate, com.opa334.altlist
 Icon: https://jzksnsjswkw.github.io/repo/icon.png
-Depiction: https://beta.noahsaso.com/depiction.php?pkg=pusher
-Author: Noah Saso <noahsaso@gmail.com>
-Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.noahsaso.pusher_3.0.0.beta4_iphoneos-arm64e.deb
-Size: 4706022
-MD5sum: 9c921c941361471cf8d8eb74e4e35157
-SHA256: 7f303561a125aa347e55b9a5980543396f025c9b2ffd9dbe43d8ae0431aa7f6b
+Depiction: https://jzksnsjswkw.github.io/repo/
+Author: jzksnsjswkw <214893178@qq.com>
+Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.jzksnsjswkw.pusher_3.0.0.beta4_iphoneos-arm64e.deb
+Size: 4692024
+MD5sum: 26a040f7af6f6d73a2378bf3a3bf4f90
+SHA256: 8e5d100d393fea3fcbbcf0b6d9daad3f6ecd518f86afff1fd672159adbbdb143
 Description: Push notifications to other devices
 
-Package: com.noahsaso.pusher-rootless
+Package: com.jzksnsjswkw.pusher-rootless
 Name: Pusher-rootless
 Version: 3.0.0~beta4
-Provides: com.noahsaso.pusher
+Provides: com.jzksnsjswkw.pusher
 Architecture: iphoneos-arm64
 Section: Tweaks
 Priority: optional
 Maintainer: jzksnsjswkw
-Installed-Size: 10132
+Installed-Size: 10120
 Depends: mobilesubstrate, com.opa334.altlist
 Icon: https://jzksnsjswkw.github.io/repo/icon.png
-Depiction: https://beta.noahsaso.com/depiction.php?pkg=pusher
-Author: Noah Saso <noahsaso@gmail.com>
-Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.noahsaso.pusher_3.0.0.beta4_iphoneos-arm64.deb
-Size: 4707360
-MD5sum: d2ca926b1f1f088a6d506ed53f0ceca8
-SHA256: 44bc80e1289eb41dc88889a2c8db75c38dfe59bbdd1a7c567343961b90c2b551
+Depiction: https://jzksnsjswkw.github.io/repo/
+Author: jzksnsjswkw <214893178@qq.com>
+Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.jzksnsjswkw.pusher_3.0.0.beta4_iphoneos-arm64.deb
+Size: 4691374
+MD5sum: 1239449d38102d255dc1c6faf369853e
+SHA256: e72191bf26960796d4c1931cbd996b136be7823df866b6b5fc7921617ae6278c
 Description: Push notifications to other devices
 
