@@ -1,4 +1,5 @@
 Package: com.noahsaso.pusher-roothide
+Name: Pusher-roothide
 Version: 3.0.0~beta4
 Provides: com.noahsaso.pusher
 Architecture: iphoneos-arm64e
@@ -9,11 +10,12 @@ Installed-Size: 10176
 Depends: mobilesubstrate, com.opa334.altlist
 Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.0-beta4/com.noahsaso.pusher_3.0.0.beta4_iphoneos-arm64e.deb
 Size: 4687194
-MD5sum: d228fac09a809302baa8d720c61afa34
-SHA256: 19822a23d372b8a2584d12bac84aa888ff72bcbbaaab34457858021c2d09faba
+MD5sum: 1810161973c9b097f54d9c2f4464e3d1
+SHA256: 1378fdafbb3ee088dde247ab4ee513b52903adaf60647519fd042d43897a6493
 Description: Push notifications to other devices
 
 Package: com.noahsaso.pusher-rootless
+Name: Pusher-rootless
 Version: 3.0.0~beta4
 Provides: com.noahsaso.pusher
 Architecture: iphoneos-arm64
