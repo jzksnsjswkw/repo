@@ -65,7 +65,15 @@
   li { padding: 14px 16px; background: var(--card); }
   li + li { border-top: 1px solid var(--line); }
   .name { font-weight: 600; margin: 0 0 3px; }
-  .desc { color: var(--muted); font-size: 13px; margin: 0; }
+  /* Clamped rather than trimmed: a control file's Description is a paragraph plus
+     bullet points on continuation lines, and cutting it at the first line would
+     show "按应用和全局修改 GPS 定位" alone for every package that leads with a
+     heading. Two lines of the real text says more. */
+  .desc {
+    color: var(--muted); font-size: 13px; margin: 0;
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
   .meta { color: var(--muted); font-size: 12px; margin: 6px 0 0; font-variant-numeric: tabular-nums; }
   footer { color: var(--muted); font-size: 12px; text-align: center; line-height: 1.7; }
   footer a { color: var(--tint); text-decoration: none; }
@@ -148,7 +156,9 @@
       rows.push({
         base,
         name: (f.Name || f.Package).replace(/-(roothide|rootless)$/, ''),
-        desc: (f.Description || '').split('\n')[0],
+        // The whole paragraph: continuation lines were joined above, and the CSS
+        // clamps it. Trimming here would cut the useful part off.
+        desc: (f.Description || '').replace(/\s*\.\s+/g, ' · '),
         version: f.Version || '',
         archs: [arch]
       });
