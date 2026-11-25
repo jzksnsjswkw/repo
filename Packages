@@ -8,14 +8,14 @@ Priority: optional
 Maintainer: jzksnsjswkw
 Installed-Size: 876
 Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
-Icon: https://jzksnsjswkw.github.io/repo/icon.png
+Icon: https://jzksnsjswkw.github.io/repo/relocate.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
 Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.0/com.jzksnsjswkw.relocate_1.2.0_iphoneos-arm64.deb
-Size: 125900
-MD5sum: 7d911967c3728fe5172f7611ca718069
-SHA256: b77c83ee7be5a79396e1a0a4b2a3f2742927bc2dd29eacbe31e1d24adebeca91
+Size: 125682
+MD5sum: a6ae618f105392f0a12051fd81fb1821
+SHA256: 63547180eb237bab251c4f54c31c9afe9c82533b315e928c1cc66b91e0051fd9
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
@@ -34,14 +34,14 @@ Priority: optional
 Maintainer: jzksnsjswkw
 Installed-Size: 876
 Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
-Icon: https://jzksnsjswkw.github.io/repo/icon.png
+Icon: https://jzksnsjswkw.github.io/repo/relocate.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
 Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.0/com.jzksnsjswkw.relocate_1.2.0_iphoneos-arm64e.deb
-Size: 124240
-MD5sum: d8a244c8db7c66f77ad2353edf749f16
-SHA256: ac5474cdb459e74f39cde1be2c98f2b12d63eee40b359ca47fa9c0ef2724c775
+Size: 124010
+MD5sum: 296225e58d2b360fc72e2bfdea6b5166
+SHA256: bc762ef43d51a86c9ebe93747481b59729715a1eb55571838fc9bb2c98a2947a
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
@@ -49,6 +49,38 @@ Description: 按应用和全局修改 GPS 定位
  - 摇杆微调，按当前缩放自动调整步长
  - 国内坐标自动转换（GCJ-02 / WGS-84）
  - 可单独设置「查找」等服务的位置
+
+Package: com.82flex.libsandyxpc
+Name: libSandyXpc
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Section: System
+Priority: optional
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 200
+Depends: com.opa334.libsandy
+Author: 82Flex <82flex@gmail.com>
+Filename: https://jzksnsjswkw.github.io/repo/debs/com.82flex.libsandyxpc_1.1.2_iphoneos-arm64e.deb
+Size: 18724
+MD5sum: e194e2110113ee554e798856ed9b34a4
+SHA256: 8d8ef216d61e0ec9ff335f7298e42c71eedfc5144093a307a71a16a70d47ef09
+Description: Yet another XPC library for iOS
+
+Package: com.82flex.libsandyxpc
+Name: libSandyXpc
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Section: System
+Priority: optional
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 200
+Depends: com.opa334.libsandy
+Author: 82Flex <82flex@gmail.com>
+Filename: https://jzksnsjswkw.github.io/repo/debs/com.82flex.libsandyxpc_1.1.2_iphoneos-arm64.deb
+Size: 18804
+MD5sum: 62ff3fc80d8ef4bc7a1e5bf519789367
+SHA256: d26624704006bfa5b16a73dddd5fb92d2ac0625359d60ec2861dd65aad28e220
+Description: Yet another XPC library for iOS
 
 Package: com.jzksnsjswkw.pusher-rootless
 Name: Pusher-rootless
@@ -60,7 +92,7 @@ Priority: optional
 Maintainer: jzksnsjswkw
 Installed-Size: 10844
 Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.82flex.libsandyxpc
-Icon: https://jzksnsjswkw.github.io/repo/icon.png
+Icon: https://jzksnsjswkw.github.io/repo/pusher.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
@@ -85,7 +117,7 @@ Priority: optional
 Maintainer: jzksnsjswkw
 Installed-Size: 10913
 Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.82flex.libsandyxpc
-Icon: https://jzksnsjswkw.github.io/repo/icon.png
+Icon: https://jzksnsjswkw.github.io/repo/pusher.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
