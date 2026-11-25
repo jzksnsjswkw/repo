@@ -1,82 +1,52 @@
-Package: com.jzksnsjswkw.pusher-rootless
-Name: Pusher-rootless
-Version: 3.0.1
-Provides: com.jzksnsjswkw.pusher
+Package: com.jzksnsjswkw.relocate-rootless
+Name: Relocate-rootless
+Version: 1.2.0
+Provides: com.jzksnsjswkw.relocate
 Architecture: iphoneos-arm64
 Section: Tweaks
 Priority: optional
 Maintainer: jzksnsjswkw
-Installed-Size: 7604
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.82flex.libsandyxpc
+Installed-Size: 876
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
 Icon: https://jzksnsjswkw.github.io/repo/icon.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
-Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.1/com.jzksnsjswkw.pusher_3.0.1_iphoneos-arm64.deb
-Size: 4402444
-MD5sum: 8fe61f3d3104e18260d84143952212bc
-SHA256: 42fb9ca8755db2b64173579b8156ae2a90a5dfaaa810dccb3a4b077ad59ce61d
-Description: 将通知转发到其他设备
- 将收到的通知转发到你想要的地方，还可以根据关键字拦截通知
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.0/com.jzksnsjswkw.relocate_1.2.0_iphoneos-arm64.deb
+Size: 125616
+MD5sum: 7f5810ab06a18815d556ec365eceee7e
+SHA256: 92a18ab49380419e5ca64122aa8123cc616a8f375620efd17c92062caa10150c
+Description: 按应用和全局修改 GPS 定位
+ 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
- - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
- - 写 JavaScript 自定义转发服务
+ - 地图选点，支持搜索与收藏
+ - 摇杆微调，按当前缩放自动调整步长
+ - 国内坐标自动转换（GCJ-02 / WGS-84）
+ - 可单独设置「查找」等服务的位置
 
-Package: com.jzksnsjswkw.pusher-roothide
-Name: Pusher-roothide
-Version: 3.0.1
-Provides: com.jzksnsjswkw.pusher
+Package: com.jzksnsjswkw.relocate-roothide
+Name: Relocate-roothide
+Version: 1.2.0
+Provides: com.jzksnsjswkw.relocate
 Architecture: iphoneos-arm64e
 Section: Tweaks
 Priority: optional
 Maintainer: jzksnsjswkw
-Installed-Size: 7748
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.82flex.libsandyxpc
+Installed-Size: 876
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
 Icon: https://jzksnsjswkw.github.io/repo/icon.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
-Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.1/com.jzksnsjswkw.pusher_3.0.1_iphoneos-arm64e.deb
-Size: 4416460
-MD5sum: d4e4d6ed2a1f8b02f15a0ff822adc1ed
-SHA256: 97831911ed1a829d992c2674faf5a5dae145c03af944a0742a99b72300075f58
-Description: 将通知转发到其他设备
- 将收到的通知转发到你想要的地方，还可以根据关键字拦截通知
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.0/com.jzksnsjswkw.relocate_1.2.0_iphoneos-arm64e.deb
+Size: 124348
+MD5sum: c4cb3501106417d8b4de7e13933936da
+SHA256: 8cb9dfdeec668a2820ea8053e036eb3e41f485f8b5052629bb106fed508e6793
+Description: 按应用和全局修改 GPS 定位
+ 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
- - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
- - 写 JavaScript 自定义转发服务
-
-Package: com.82flex.libsandyxpc
-Name: libSandyXpc
-Version: 1.1.2
-Architecture: iphoneos-arm64e
-Section: System
-Priority: optional
-Maintainer: 82Flex <82flex@gmail.com>
-Installed-Size: 200
-Depends: com.opa334.libsandy
-Author: 82Flex <82flex@gmail.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
-Filename: https://jzksnsjswkw.github.io/repo/debs/com.82flex.libsandyxpc_1.1.2_iphoneos-arm64e.deb
-Size: 18724
-MD5sum: e194e2110113ee554e798856ed9b34a4
-SHA256: 8d8ef216d61e0ec9ff335f7298e42c71eedfc5144093a307a71a16a70d47ef09
-Description: Yet another XPC library for iOS
-
-Package: com.82flex.libsandyxpc
-Name: libSandyXpc
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Section: System
-Priority: optional
-Maintainer: 82Flex <82flex@gmail.com>
-Installed-Size: 200
-Depends: com.opa334.libsandy
-Author: 82Flex <82flex@gmail.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
-Filename: https://jzksnsjswkw.github.io/repo/debs/com.82flex.libsandyxpc_1.1.2_iphoneos-arm64.deb
-Size: 18804
-MD5sum: 62ff3fc80d8ef4bc7a1e5bf519789367
-SHA256: d26624704006bfa5b16a73dddd5fb92d2ac0625359d60ec2861dd65aad28e220
-Description: Yet another XPC library for iOS
+ - 地图选点，支持搜索与收藏
+ - 摇杆微调，按当前缩放自动调整步长
+ - 国内坐标自动转换（GCJ-02 / WGS-84）
+ - 可单独设置「查找」等服务的位置
 

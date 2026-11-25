@@ -5,5 +5,5 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64e iphoneos-arm64
 Components: main
-Description: Notification forwarding for iOS
+Description: Per-app and global GPS location override for iOS
 Icon: file://CydiaIcon@2x.png
