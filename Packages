@@ -13,9 +13,9 @@ Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
 Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.0/com.jzksnsjswkw.relocate_1.2.0_iphoneos-arm64.deb
-Size: 125682
-MD5sum: a6ae618f105392f0a12051fd81fb1821
-SHA256: 63547180eb237bab251c4f54c31c9afe9c82533b315e928c1cc66b91e0051fd9
+Size: 125616
+MD5sum: 7f5810ab06a18815d556ec365eceee7e
+SHA256: 92a18ab49380419e5ca64122aa8123cc616a8f375620efd17c92062caa10150c
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
@@ -39,9 +39,9 @@ Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
 Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.0/com.jzksnsjswkw.relocate_1.2.0_iphoneos-arm64e.deb
-Size: 124010
-MD5sum: 296225e58d2b360fc72e2bfdea6b5166
-SHA256: bc762ef43d51a86c9ebe93747481b59729715a1eb55571838fc9bb2c98a2947a
+Size: 124348
+MD5sum: c4cb3501106417d8b4de7e13933936da
+SHA256: 8cb9dfdeec668a2820ea8053e036eb3e41f485f8b5052629bb106fed508e6793
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
