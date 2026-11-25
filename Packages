@@ -1,6 +1,6 @@
 Package: com.jzksnsjswkw.relocate-rootless
 Name: Relocate-rootless
-Version: 1.2.1
+Version: 1.2.0
 Provides: com.jzksnsjswkw.relocate
 Architecture: iphoneos-arm64
 Section: Tweaks
@@ -12,10 +12,10 @@ Icon: https://jzksnsjswkw.github.io/repo/relocate.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.1/com.jzksnsjswkw.relocate_1.2.1_iphoneos-arm64.deb
-Size: 125888
-MD5sum: f5be4ca0c84ce1308d56569af738c282
-SHA256: a425af5fc747ac34f0b7f92cc9d60f3b58408a68f991d1d0a2507c66f12d2af6
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.1/com.jzksnsjswkw.relocate_1.2.0_iphoneos-arm64.deb
+Size: 125894
+MD5sum: b7a0b4afb699ab610d269d64d0c610f2
+SHA256: a118e721471c520614fda1dd489529e79e7cff915bb726c8778f6d33ed4cf6a2
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
@@ -26,7 +26,7 @@ Description: 按应用和全局修改 GPS 定位
 
 Package: com.jzksnsjswkw.relocate-roothide
 Name: Relocate-roothide
-Version: 1.2.1
+Version: 1.2.0
 Provides: com.jzksnsjswkw.relocate
 Architecture: iphoneos-arm64e
 Section: Tweaks
@@ -38,10 +38,10 @@ Icon: https://jzksnsjswkw.github.io/repo/relocate.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.1/com.jzksnsjswkw.relocate_1.2.1_iphoneos-arm64e.deb
-Size: 124224
-MD5sum: dd295bcad5d1174707f5e8a6a8b0bb72
-SHA256: 073d12e1022e8b494cd0d55434727c90f7275252751bf062bb3e3fdad6b9b04e
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.1/com.jzksnsjswkw.relocate_1.2.0_iphoneos-arm64e.deb
+Size: 124336
+MD5sum: 14c4d87446aee954f6b5bb8b48bb92a2
+SHA256: b7c789a3cebb1f60a295fcb3ba58d23f464f58a74fc92df5e6e79c52c7c34f4a
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
