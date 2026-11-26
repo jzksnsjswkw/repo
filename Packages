@@ -1,6 +1,6 @@
 Package: com.jzksnsjswkw.relocate-rootless
 Name: Relocate-rootless
-Version: 1.3.1
+Version: 1.3.2
 Architecture: iphoneos-arm64
 Section: Tweaks
 Priority: optional
@@ -11,10 +11,10 @@ Icon: https://jzksnsjswkw.github.io/repo/relocate.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.3.1/com.jzksnsjswkw.relocate-rootless_1.3.1_iphoneos-arm64.deb
-Size: 125360
-MD5sum: aee248b4e8fb1a5318a022a43e84144f
-SHA256: aea34e20e57e5d8cf5600e1a9d4277f1d3dfd0064d812ec576f12df0099eba66
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.3.2/com.jzksnsjswkw.relocate-rootless_1.3.2_iphoneos-arm64.deb
+Size: 124678
+MD5sum: 2db532955b36793f25242ba260d78969
+SHA256: ba1a41b77c66d3592e0fa0c59c1eafff3ac3748c9d7bc6e91ff7599c9c03b365
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
@@ -25,7 +25,7 @@ Description: 按应用和全局修改 GPS 定位
 
 Package: com.jzksnsjswkw.relocate-rootless
 Name: Relocate-rootless
-Version: 1.3.1
+Version: 1.3.2
 Architecture: iphoneos-arm64e
 Section: Tweaks
 Priority: optional
@@ -36,10 +36,10 @@ Icon: https://jzksnsjswkw.github.io/repo/relocate.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.3.1/com.jzksnsjswkw.relocate-rootless_1.3.1_iphoneos-arm64e.deb
-Size: 124490
-MD5sum: 2ea4f83d686c251f912316b52c74f535
-SHA256: 8b97ea0198387027c98e86d4cce28942fd0ac7af5293a21e687eb15cc470b308
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.3.2/com.jzksnsjswkw.relocate-rootless_1.3.2_iphoneos-arm64e.deb
+Size: 124458
+MD5sum: 6ef91df5994ac7aa936cd5ba512d6244
+SHA256: 9684e53ebc4e01895ab9a58ac855124f7f6ed0f470896548c5302441c9911625
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
