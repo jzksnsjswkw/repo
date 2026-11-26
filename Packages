@@ -1,33 +1,6 @@
-Package: com.jzksnsjswkw.relocate-roothide
-Name: Relocate
-Version: 1.2.2
-Provides: com.jzksnsjswkw.relocate
-Architecture: iphoneos-arm64e
-Section: Tweaks
-Priority: optional
-Maintainer: jzksnsjswkw
-Installed-Size: 876
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
-Icon: https://jzksnsjswkw.github.io/repo/relocate.png
-Depiction: https://jzksnsjswkw.github.io/repo/
-Author: jzksnsjswkw <214893178@qq.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.2/com.jzksnsjswkw.relocate-roothide_1.2.2_iphoneos-arm64e.deb
-Size: 124202
-MD5sum: 8095f41d93f5c088a31f47ac952f59b9
-SHA256: 1f975d4c7e7442a480cbd141166ccc4eb4420782cc5bf4a3da070202fbb9520b
-Description: 按应用和全局修改 GPS 定位
- 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
- .
- - 地图选点，支持搜索与收藏
- - 摇杆微调，按当前缩放自动调整步长
- - 国内坐标自动转换（GCJ-02 / WGS-84）
- - 可单独设置「查找」等服务的位置
-
 Package: com.jzksnsjswkw.relocate-rootless
-Name: Relocate
-Version: 1.2.2
-Provides: com.jzksnsjswkw.relocate
+Name: Relocate-rootless
+Version: 1.3.0
 Architecture: iphoneos-arm64
 Section: Tweaks
 Priority: optional
@@ -38,10 +11,35 @@ Icon: https://jzksnsjswkw.github.io/repo/relocate.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.2/com.jzksnsjswkw.relocate-rootless_1.2.2_iphoneos-arm64.deb
-Size: 125276
-MD5sum: a5bdf934e76b507c4da952eb6e90440d
-SHA256: ae6663291658c2201d7d723d77aebffdf3dada682e14a5c6943fcd8787446ab9
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.3.0/com.jzksnsjswkw.relocate-rootless_1.3.0_iphoneos-arm64.deb
+Size: 125068
+MD5sum: 91e19080f26e8f5a73d45def302b7e80
+SHA256: c5f5c09fb50c459362d5eb875dbda92228bbbe627cb5e71aba97dd7448d76f8f
+Description: 按应用和全局修改 GPS 定位
+ 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
+ .
+ - 地图选点，支持搜索与收藏
+ - 摇杆微调，按当前缩放自动调整步长
+ - 国内坐标自动转换（GCJ-02 / WGS-84）
+ - 可单独设置「查找」等服务的位置
+
+Package: com.jzksnsjswkw.relocate-rootless
+Name: Relocate-rootless
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Priority: optional
+Maintainer: jzksnsjswkw
+Installed-Size: 860
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
+Icon: https://jzksnsjswkw.github.io/repo/relocate.png
+Depiction: https://jzksnsjswkw.github.io/repo/
+Author: jzksnsjswkw <214893178@qq.com>
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.3.0/com.jzksnsjswkw.relocate-rootless_1.3.0_iphoneos-arm64e.deb
+Size: 124504
+MD5sum: 39f162119f7a593f7ac5a402be1e21a8
+SHA256: 4fd98fe9bbc10b7a84a5a16b2e4fdd9a4f389b4813e962cc5cf0e1c3867db5a1
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
@@ -81,6 +79,33 @@ Size: 18804
 MD5sum: 62ff3fc80d8ef4bc7a1e5bf519789367
 SHA256: d26624704006bfa5b16a73dddd5fb92d2ac0625359d60ec2861dd65aad28e220
 Description: Yet another XPC library for iOS
+
+Package: com.jzksnsjswkw.relocate-roothide
+Name: Relocate
+Version: 1.2.2
+Provides: com.jzksnsjswkw.relocate
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Priority: optional
+Maintainer: jzksnsjswkw
+Installed-Size: 876
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
+Icon: https://jzksnsjswkw.github.io/repo/relocate.png
+Depiction: https://jzksnsjswkw.github.io/repo/
+Author: jzksnsjswkw <214893178@qq.com>
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.2/com.jzksnsjswkw.relocate-roothide_1.2.2_iphoneos-arm64e.deb
+Size: 124202
+MD5sum: 8095f41d93f5c088a31f47ac952f59b9
+SHA256: 1f975d4c7e7442a480cbd141166ccc4eb4420782cc5bf4a3da070202fbb9520b
+Description: 按应用和全局修改 GPS 定位
+ 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
+ .
+ - 地图选点，支持搜索与收藏
+ - 摇杆微调，按当前缩放自动调整步长
+ - 国内坐标自动转换（GCJ-02 / WGS-84）
+ - 可单独设置「查找」等服务的位置
+
 
 Package: com.jzksnsjswkw.pusher-rootless
 Name: Pusher
