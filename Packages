@@ -80,33 +80,6 @@ MD5sum: 62ff3fc80d8ef4bc7a1e5bf519789367
 SHA256: d26624704006bfa5b16a73dddd5fb92d2ac0625359d60ec2861dd65aad28e220
 Description: Yet another XPC library for iOS
 
-Package: com.jzksnsjswkw.relocate-roothide
-Name: Relocate
-Version: 1.2.2
-Provides: com.jzksnsjswkw.relocate
-Architecture: iphoneos-arm64e
-Section: Tweaks
-Priority: optional
-Maintainer: jzksnsjswkw
-Installed-Size: 876
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
-Icon: https://jzksnsjswkw.github.io/repo/relocate.png
-Depiction: https://jzksnsjswkw.github.io/repo/
-Author: jzksnsjswkw <214893178@qq.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.2/com.jzksnsjswkw.relocate-roothide_1.2.2_iphoneos-arm64e.deb
-Size: 124202
-MD5sum: 8095f41d93f5c088a31f47ac952f59b9
-SHA256: 1f975d4c7e7442a480cbd141166ccc4eb4420782cc5bf4a3da070202fbb9520b
-Description: 按应用和全局修改 GPS 定位
- 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
- .
- - 地图选点，支持搜索与收藏
- - 摇杆微调，按当前缩放自动调整步长
- - 国内坐标自动转换（GCJ-02 / WGS-84）
- - 可单独设置「查找」等服务的位置
-
-
 Package: com.jzksnsjswkw.pusher-rootless
 Name: Pusher
 Version: 3.0.1
