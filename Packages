@@ -1,32 +1,6 @@
-Package: com.jzksnsjswkw.relocate-rootless
-Name: Relocate-rootless
-Version: 1.2.1
-Provides: com.jzksnsjswkw.relocate
-Architecture: iphoneos-arm64
-Section: Tweaks
-Priority: optional
-Maintainer: jzksnsjswkw
-Installed-Size: 876
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
-Icon: https://jzksnsjswkw.github.io/repo/relocate.png
-Depiction: https://jzksnsjswkw.github.io/repo/
-Author: jzksnsjswkw <214893178@qq.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.1/com.jzksnsjswkw.relocate_1.2.1_iphoneos-arm64.deb
-Size: 125740
-MD5sum: 1d1f48073a01664d4cc9523be335ee01
-SHA256: b69db83b1191d040e258383e1888733324fdbe1454a83241e5e3cbadbd237929
-Description: 按应用和全局修改 GPS 定位
- 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
- .
- - 地图选点，支持搜索与收藏
- - 摇杆微调，按当前缩放自动调整步长
- - 国内坐标自动转换（GCJ-02 / WGS-84）
- - 可单独设置「查找」等服务的位置
-
 Package: com.jzksnsjswkw.relocate-roothide
 Name: Relocate-roothide
-Version: 1.2.1
+Version: 1.2.2
 Provides: com.jzksnsjswkw.relocate
 Architecture: iphoneos-arm64e
 Section: Tweaks
@@ -38,10 +12,36 @@ Icon: https://jzksnsjswkw.github.io/repo/relocate.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
 Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.1/com.jzksnsjswkw.relocate_1.2.1_iphoneos-arm64e.deb
-Size: 124264
-MD5sum: f6c2d926e29b86319a6ad8176960499e
-SHA256: 527ea015d5368cde9713222a62d1ae5cc6d1a95ef1ecf227e2f23f71a13b59e1
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.2/com.jzksnsjswkw.relocate-roothide_1.2.2_iphoneos-arm64e.deb
+Size: 124202
+MD5sum: 8095f41d93f5c088a31f47ac952f59b9
+SHA256: 1f975d4c7e7442a480cbd141166ccc4eb4420782cc5bf4a3da070202fbb9520b
+Description: 按应用和全局修改 GPS 定位
+ 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
+ .
+ - 地图选点，支持搜索与收藏
+ - 摇杆微调，按当前缩放自动调整步长
+ - 国内坐标自动转换（GCJ-02 / WGS-84）
+ - 可单独设置「查找」等服务的位置
+
+Package: com.jzksnsjswkw.relocate-rootless
+Name: Relocate-rootless
+Version: 1.2.2
+Provides: com.jzksnsjswkw.relocate
+Architecture: iphoneos-arm64
+Section: Tweaks
+Priority: optional
+Maintainer: jzksnsjswkw
+Installed-Size: 876
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
+Icon: https://jzksnsjswkw.github.io/repo/relocate.png
+Depiction: https://jzksnsjswkw.github.io/repo/
+Author: jzksnsjswkw <214893178@qq.com>
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
+Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.2.2/com.jzksnsjswkw.relocate-rootless_1.2.2_iphoneos-arm64.deb
+Size: 125276
+MD5sum: a5bdf934e76b507c4da952eb6e90440d
+SHA256: ae6663291658c2201d7d723d77aebffdf3dada682e14a5c6943fcd8787446ab9
 Description: 按应用和全局修改 GPS 定位
  分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
  .
