@@ -1,5 +1,5 @@
 Package: com.jzksnsjswkw.relocate-roothide
-Name: Relocate-roothide
+Name: Relocate
 Version: 1.2.2
 Provides: com.jzksnsjswkw.relocate
 Architecture: iphoneos-arm64e
@@ -25,7 +25,7 @@ Description: 按应用和全局修改 GPS 定位
  - 可单独设置「查找」等服务的位置
 
 Package: com.jzksnsjswkw.relocate-rootless
-Name: Relocate-rootless
+Name: Relocate
 Version: 1.2.2
 Provides: com.jzksnsjswkw.relocate
 Architecture: iphoneos-arm64
@@ -83,7 +83,7 @@ SHA256: d26624704006bfa5b16a73dddd5fb92d2ac0625359d60ec2861dd65aad28e220
 Description: Yet another XPC library for iOS
 
 Package: com.jzksnsjswkw.pusher-rootless
-Name: Pusher-rootless
+Name: Pusher
 Version: 3.0.1
 Provides: com.jzksnsjswkw.pusher
 Architecture: iphoneos-arm64
@@ -108,7 +108,7 @@ Description: 将通知转发到其他设备
 
 
 Package: com.jzksnsjswkw.pusher-roothide
-Name: Pusher-roothide
+Name: Pusher
 Version: 3.0.1
 Provides: com.jzksnsjswkw.pusher
 Architecture: iphoneos-arm64e
