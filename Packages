@@ -49,34 +49,30 @@ Description: 将通知转发到其他设备
 Package: com.82flex.libsandyxpc
 Name: libSandyXpc
 Version: 1.1.2
-Architecture: iphoneos-arm64e
-Section: System
-Priority: optional
-Maintainer: 82Flex <82flex@gmail.com>
-Installed-Size: 200
-Depends: com.opa334.libsandy
-Author: 82Flex <82flex@gmail.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
-Filename: https://jzksnsjswkw.github.io/repo/debs/com.82flex.libsandyxpc_1.1.2_iphoneos-arm64e.deb
-Size: 18724
-MD5sum: e194e2110113ee554e798856ed9b34a4
-SHA256: 8d8ef216d61e0ec9ff335f7298e42c71eedfc5144093a307a71a16a70d47ef09
-Description: Yet another XPC library for iOS
-
-Package: com.82flex.libsandyxpc
-Name: libSandyXpc
-Version: 1.1.2
 Architecture: iphoneos-arm64
-Section: System
-Priority: optional
 Maintainer: 82Flex <82flex@gmail.com>
-Installed-Size: 200
-Depends: com.opa334.libsandy
 Author: 82Flex <82flex@gmail.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
+Section: System
+Description: Yet another XPC library for iOS
+Depends: com.opa334.libsandy
+Installed-Size: 200
 Filename: https://jzksnsjswkw.github.io/repo/debs/com.82flex.libsandyxpc_1.1.2_iphoneos-arm64.deb
 Size: 18804
 MD5sum: 62ff3fc80d8ef4bc7a1e5bf519789367
 SHA256: d26624704006bfa5b16a73dddd5fb92d2ac0625359d60ec2861dd65aad28e220
+
+Package: com.82flex.libsandyxpc
+Name: libSandyXpc
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: 82Flex <82flex@gmail.com>
+Author: 82Flex <82flex@gmail.com>
+Section: System
 Description: Yet another XPC library for iOS
+Depends: com.opa334.libsandy
+Installed-Size: 200
+Filename: https://jzksnsjswkw.github.io/repo/debs/com.82flex.libsandyxpc_1.1.2_iphoneos-arm64e.deb
+Size: 18724
+MD5sum: e194e2110113ee554e798856ed9b34a4
+SHA256: 8d8ef216d61e0ec9ff335f7298e42c71eedfc5144093a307a71a16a70d47ef09
 

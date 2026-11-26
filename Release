@@ -7,3 +7,21 @@ Architectures: iphoneos-arm64e iphoneos-arm64
 Components: main
 Description: Notification forwarding for iOS
 Icon: file://CydiaIcon@2x.png
+MD5Sum:
+ dccb07b4c9b5da7f4bc759984c913b8a 3112 Packages
+ c5f647fec125174f71d0439d4e6cc8aa 1263 Packages.bz2
+ 87c5e900682f7cdea8b990a0725d08ad 1069 Packages.gz
+ 6b9807949c6cf81b92c08ce64618d88a 1048 Packages.xz
+ 1328d32d47e90b944f679e6c2fbde273 1061 Packages.zst
+SHA1:
+ 557a9a946dfcec71b4c9b249c13e35033b0c1ff6 3112 Packages
+ 0ec99724fab6feb21c7f30162269c1ab9d03fba9 1263 Packages.bz2
+ 1515dd60114e3bdd482db996cdc4396bdd3c0bd8 1069 Packages.gz
+ edc6cb223c81e093fded5b4e6686378dbd6183c5 1048 Packages.xz
+ f41318842801494de3fcde103baf19a997821e1c 1061 Packages.zst
+SHA256:
+ 407a99e2c31550c86bed446ad0b22dbbb6169a3286692df075efcd511ec33df7 3112 Packages
+ 44d80a07c9889edb7e4e143900f5dd65e5bf38fbf09eef1bb8676d5ed62d6e96 1263 Packages.bz2
+ e8550b411e9e2833121e35c37e01378329dcd6856278731c7b5d41c5d359d0df 1069 Packages.gz
+ 82374fbc9b8b0f9a07848095de47feaee5b1b93cbf1de334b23fd3a313526405 1048 Packages.xz
+ 9407e98eaf944c3f26190f47d3a0318bbab0290cd376814c9dd8533ac6a9c506 1061 Packages.zst
