@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>jzksnsjswkw 软件源</title>
+<meta name="description" content="Relocate 与 Pusher 的 APT 软件源">
+<meta name="theme-color" content="#0A84FF">
+<link rel="icon" href="CydiaIcon@2x.png">
+<link rel="apple-touch-icon" href="CydiaIcon@3x.png">
+<style>
+  /* One column, one purpose: read the name, add the source, see what is in it.
+     The dark palette is declared twice on purpose — the second block is what older
+     Safari needs, `light-dark()` is what newer ones use — and the page is readable
+     with neither. */
+  :root {
+    --bg: #ffffff;
+    --fg: #14161a;
+    --muted: #6b7280;
+    --card: #f5f6f8;
+    --line: #e3e6ea;
+    --tint: #0A84FF;
+    --tint-fg: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0d10;
+      --fg: #f2f4f7;
+      --muted: #9aa2ad;
+      --card: #16191e;
+      --line: #24282f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 28px 20px 48px;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "PingFang SC", sans-serif;
+    max-width: 620px;
+    margin-inline: auto;
+  }
+  .head { display: flex; align-items: center; gap: 14px; margin-bottom: 26px; }
+  .head img { width: 60px; height: 60px; border-radius: 14px; }
+  h1 { font-size: 21px; margin: 0 0 2px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0; }
+  .add {
+    display: flex; align-items: center; justify-content: center;
+    width: 100%; padding: 15px 20px; margin-bottom: 10px;
+    border-radius: 14px; background: var(--tint); color: var(--tint-fg);
+    font-size: 17px; font-weight: 600; text-decoration: none;
+    /* The one deliberate bit of motion: a tap should feel like it landed. */
+    transition: transform .12s ease, opacity .12s ease;
+  }
+  .add:active { transform: scale(.985); opacity: .85; }
+  .hint { color: var(--muted); font-size: 13px; text-align: center; margin: 0 0 30px; }
+  h2 {
+    font-size: 13px; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--muted); font-weight: 600; margin: 0 0 10px;
+  }
+  ul { list-style: none; margin: 0 0 30px; padding: 0;
+       border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  li { padding: 14px 16px; background: var(--card); }
+  li + li { border-top: 1px solid var(--line); }
+  .name { font-weight: 600; margin: 0 0 3px; }
+  /* Clamped rather than trimmed: a control file's Description is a paragraph plus
+     bullet points on continuation lines, and cutting it at the first line would
+     show "按应用和全局修改 GPS 定位" alone for every package that leads with a
+     heading. Two lines of the real text says more. */
+  .desc {
+    color: var(--muted); font-size: 13px; margin: 0;
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .meta { color: var(--muted); font-size: 12px; margin: 6px 0 0; font-variant-numeric: tabular-nums; }
+  footer { color: var(--muted); font-size: 12px; text-align: center; line-height: 1.7; }
+  footer a { color: var(--tint); text-decoration: none; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 12px; background: var(--card); padding: 2px 6px; border-radius: 5px;
+    border: 1px solid var(--line); word-break: break-all;
+  }
+</style>
+</head>
+<body>
+
+  <div class="head">
+    <img src="CydiaIcon@2x.png" alt="">
+    <div>
+      <h1>jzksnsjswkw 软件源</h1>
+      <p class="sub"><!--PACKAGE_COUNT--> 个插件 · APT</p>
+    </div>
+  </div>
+
+  <!-- sileo:// resolves only in Sileo; a client without it falls through to the
+       code block below, which is the same URL. -->
+  <a class="add" id="add" href="sileo://source/https://jzksnsjswkw.github.io/repo/">在 Sileo 中添加源</a>
+  <p class="hint">需要先安装 Sileo 或 Zebra</p>
+
+  <h2>包含的插件</h2>
+  <ul id="packages">
+<!--PACKAGE_ROWS-->
+  </ul>
+
+  <h2>手动添加</h2>
+  <ul><li><code>https://jzksnsjswkw.github.io/repo/</code></li></ul>
+
+  <footer>
+    <a href="https://github.com/jzksnsjswkw/Relocate-rootless">Relocate</a> ·
+    <a href="https://github.com/jzksnsjswkw/Pusher-rootless">Pusher</a><br>
+    仅限已越狱设备
+  </footer>
+
+</body>
+</html>
