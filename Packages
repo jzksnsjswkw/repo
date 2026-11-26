@@ -1,52 +1,50 @@
-Package: com.jzksnsjswkw.relocate-rootless
-Name: Relocate-rootless
-Version: 1.3.0
+Package: com.jzksnsjswkw.pusher-rootless
+Name: Pusher-rootless
+Version: 3.0.1
+Provides: com.jzksnsjswkw.pusher
 Architecture: iphoneos-arm64
 Section: Tweaks
 Priority: optional
 Maintainer: jzksnsjswkw
-Installed-Size: 876
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
-Icon: https://jzksnsjswkw.github.io/repo/relocate.png
+Installed-Size: 7604
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.82flex.libsandyxpc
+Icon: https://jzksnsjswkw.github.io/repo/pusher.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.3.0/com.jzksnsjswkw.relocate-rootless_1.3.0_iphoneos-arm64.deb
-Size: 125068
-MD5sum: 91e19080f26e8f5a73d45def302b7e80
-SHA256: c5f5c09fb50c459362d5eb875dbda92228bbbe627cb5e71aba97dd7448d76f8f
-Description: 按应用和全局修改 GPS 定位
- 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
+Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.1/com.jzksnsjswkw.pusher-rootless_3.0.1_iphoneos-arm64.deb
+Size: 4401822
+MD5sum: 584387c236c54fabcdd551ca195a9b73
+SHA256: 1057f705603fda4e5495f5381c9e0b719945b3e344b932522a3d7f483183a078
+Description: 将通知转发到其他设备
+ 将收到的通知转发到你想要的地方，还可以根据关键字拦截通知
  .
- - 地图选点，支持搜索与收藏
- - 摇杆微调，按当前缩放自动调整步长
- - 国内坐标自动转换（GCJ-02 / WGS-84）
- - 可单独设置「查找」等服务的位置
+ - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
+ - 写 JavaScript 自定义转发服务
 
-Package: com.jzksnsjswkw.relocate-rootless
-Name: Relocate-rootless
-Version: 1.3.0
+Package: com.jzksnsjswkw.pusher-rootless
+Name: Pusher-rootless
+Version: 3.0.1
+Provides: com.jzksnsjswkw.pusher
 Architecture: iphoneos-arm64e
 Section: Tweaks
 Priority: optional
 Maintainer: jzksnsjswkw
-Installed-Size: 860
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist
-Icon: https://jzksnsjswkw.github.io/repo/relocate.png
+Installed-Size: 7748
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.82flex.libsandyxpc
+Icon: https://jzksnsjswkw.github.io/repo/pusher.png
 Depiction: https://jzksnsjswkw.github.io/repo/
 Author: jzksnsjswkw <214893178@qq.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/relocate.json
-Filename: https://github.com/jzksnsjswkw/Relocate-rootless/releases/download/v1.3.0/com.jzksnsjswkw.relocate-rootless_1.3.0_iphoneos-arm64e.deb
-Size: 124504
-MD5sum: 39f162119f7a593f7ac5a402be1e21a8
-SHA256: 4fd98fe9bbc10b7a84a5a16b2e4fdd9a4f389b4813e962cc5cf0e1c3867db5a1
-Description: 按应用和全局修改 GPS 定位
- 分别控制每个应用和系统服务上报的坐标，支持全局默认位置与按应用覆盖
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
+Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.1/com.jzksnsjswkw.pusher-rootless_3.0.1_iphoneos-arm64e.deb
+Size: 4416478
+MD5sum: 565f593847b6c5d5a554a6416941c745
+SHA256: 5dd4840f200b385ff09e3e59bc89f059455893c0e147efaa3089e4a7c2f150c6
+Description: 将通知转发到其他设备
+ 将收到的通知转发到你想要的地方，还可以根据关键字拦截通知
  .
- - 地图选点，支持搜索与收藏
- - 摇杆微调，按当前缩放自动调整步长
- - 国内坐标自动转换（GCJ-02 / WGS-84）
- - 可单独设置「查找」等服务的位置
+ - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
+ - 写 JavaScript 自定义转发服务
 
 Package: com.82flex.libsandyxpc
 Name: libSandyXpc
@@ -58,6 +56,7 @@ Maintainer: 82Flex <82flex@gmail.com>
 Installed-Size: 200
 Depends: com.opa334.libsandy
 Author: 82Flex <82flex@gmail.com>
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
 Filename: https://jzksnsjswkw.github.io/repo/debs/com.82flex.libsandyxpc_1.1.2_iphoneos-arm64e.deb
 Size: 18724
 MD5sum: e194e2110113ee554e798856ed9b34a4
@@ -74,57 +73,10 @@ Maintainer: 82Flex <82flex@gmail.com>
 Installed-Size: 200
 Depends: com.opa334.libsandy
 Author: 82Flex <82flex@gmail.com>
+Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
 Filename: https://jzksnsjswkw.github.io/repo/debs/com.82flex.libsandyxpc_1.1.2_iphoneos-arm64.deb
 Size: 18804
 MD5sum: 62ff3fc80d8ef4bc7a1e5bf519789367
 SHA256: d26624704006bfa5b16a73dddd5fb92d2ac0625359d60ec2861dd65aad28e220
 Description: Yet another XPC library for iOS
-
-Package: com.jzksnsjswkw.pusher-rootless
-Name: Pusher
-Version: 3.0.1
-Provides: com.jzksnsjswkw.pusher
-Architecture: iphoneos-arm64
-Section: Tweaks
-Priority: optional
-Maintainer: jzksnsjswkw
-Installed-Size: 10844
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.82flex.libsandyxpc
-Icon: https://jzksnsjswkw.github.io/repo/pusher.png
-Depiction: https://jzksnsjswkw.github.io/repo/
-Author: jzksnsjswkw <214893178@qq.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
-Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.1/com.jzksnsjswkw.pusher_3.0.1_iphoneos-arm64.deb
-Size: 4402444
-MD5sum: 8fe61f3d3104e18260d84143952212bc
-SHA256: 42fb9ca8755db2b64173579b8156ae2a90a5dfaaa810dccb3a4b077ad59ce61d
-Description: 将通知转发到其他设备
- 将收到的通知转发到你想要的地方，还可以根据关键字拦截通知
- .
- - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
- - 写 JavaScript 自定义转发服务
-
-Package: com.jzksnsjswkw.pusher-roothide
-Name: Pusher
-Version: 3.0.1
-Provides: com.jzksnsjswkw.pusher
-Architecture: iphoneos-arm64e
-Section: Tweaks
-Priority: optional
-Maintainer: jzksnsjswkw
-Installed-Size: 10913
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.82flex.libsandyxpc
-Icon: https://jzksnsjswkw.github.io/repo/pusher.png
-Depiction: https://jzksnsjswkw.github.io/repo/
-Author: jzksnsjswkw <214893178@qq.com>
-Sileodepiction: https://jzksnsjswkw.github.io/repo/depiction/pusher.json
-Filename: https://github.com/jzksnsjswkw/Pusher-rootless/releases/download/v3.0.1/com.jzksnsjswkw.pusher_3.0.1_iphoneos-arm64e.deb
-Size: 4416460
-MD5sum: d4e4d6ed2a1f8b02f15a0ff822adc1ed
-SHA256: 97831911ed1a829d992c2674faf5a5dae145c03af944a0742a99b72300075f58
-Description: 将通知转发到其他设备
- 将收到的通知转发到你想要的地方，还可以根据关键字拦截通知
- .
- - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
- - 写 JavaScript 自定义转发服务
 
