@@ -3,25 +3,25 @@ Label: jzksnsjswkw
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm64e iphoneos-arm64
+Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Notification forwarding for iOS
+Description: Notification forwarding and location overrides for iOS
 Icon: file://CydiaIcon@2x.png
 MD5Sum:
  4c4b612db98176e98e675dd72d90c9d0 5282 Packages
  46200c99ad66eda6cd941729255b1468 1844 Packages.bz2
- 2c7c151a5fd9096d64883e81a9b28e73 1562 Packages.gz
+ 6b44b1807f901325bd2efe8dd14780f0 1562 Packages.gz
  f9f70412d25a08d6f866a433cda0a482 1476 Packages.xz
  d5f5a615ad9cc96171536735d2796e3b 1544 Packages.zst
 SHA1:
  3a27b65db18acc273dd5bd66169e1f6c1f0a55f8 5282 Packages
  0a207b21aa240c5e61eb989be62058cdbe4a2be3 1844 Packages.bz2
- 26ee2df7d7cc7ccef53b5d02e339fa1bafa0b388 1562 Packages.gz
+ f1a4d27c4aef6ba3c24465f4761c2863af26ddf4 1562 Packages.gz
  fb693fa7a90b5d8485dea822978931e7aaea29b1 1476 Packages.xz
  ee2782667d73eb9fd99e4414322fca4e862842ee 1544 Packages.zst
 SHA256:
  2c61a2f4fedefaa5dec725b0b714599acbb613db2b03f40acef8cad5cce71c05 5282 Packages
  bcf3ec33d9031442aaf9e4e62c2aa7b5ff3fd23d41b4def8fe7dda8df90dab7e 1844 Packages.bz2
- f18f1b219392ca59c28ad1f69281e56f24c5650e76802b0fd242c920f79b1425 1562 Packages.gz
+ b3b7a42a3752a63c228e682343cd27fe3eda243cc5d3b40ae8d904213752c54c 1562 Packages.gz
  a40c37f373ac475957a630b3f9956641da54eddc66218845c0a5dde406b92555 1476 Packages.xz
  6ec8bffb83a83b6b0d7609d5b5a58d39f29ef90cf29272ca2868aba58e6312f2 1544 Packages.zst
