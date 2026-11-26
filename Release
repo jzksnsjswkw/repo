@@ -3,7 +3,25 @@ Label: jzksnsjswkw
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm64e iphoneos-arm64
+Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Per-app and global GPS location override for iOS
 Icon: file://CydiaIcon@2x.png
+MD5Sum:
+ 45869731baaf72e1667a443a45c06091 5286 Packages
+ 26cf98aca13adc4698796912b003b528 1886 Packages.bz2
+ 291a48150ccf253e329ca6e40045283a 1561 Packages.gz
+ e3d174e38163b8229d6ba4a3830bb012 1480 Packages.xz
+ 4f44ef43582f7bd537aa934a3d86a67e 1543 Packages.zst
+SHA1:
+ 4af4efb76b02fbcfe83365760b2992d3fe9cfbc6 5286 Packages
+ 0b948f4547187bf2e02ac477942d5d64257bf6b0 1886 Packages.bz2
+ 9dc4282fc3d1d4261fe4581c392e5033f7efa694 1561 Packages.gz
+ 3d031aa54746241773438abf9dc045337b98d62a 1480 Packages.xz
+ 59312ec3ac0d5c4a7c43de3b36d3861f5632c4e6 1543 Packages.zst
+SHA256:
+ a0da39ef8e03ae3e0aa9b9a0b6c40df5cf5dd2e361dafe202b1cd7957c0e116d 5286 Packages
+ c5f5836e6855d2cebea543698010dabc4c92e40d03388caa21dc4a75bb2dda36 1886 Packages.bz2
+ 7ee121daa882ef03c754d405433a4a111616a96d85eb7ac54123d39e351e17cf 1561 Packages.gz
+ c6038ebd69bc9ca3f669ab85fc129ed8690559bc0a57440e039bdbd42d41185a 1480 Packages.xz
+ 0a40be7aab198bc98a7f4a4d2bd93af93a7777f915ba10a920014623200d16c2 1543 Packages.zst

@@ -104,7 +104,6 @@ Description: 将通知转发到其他设备
  - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
  - 写 JavaScript 自定义转发服务
 
-
 Package: com.jzksnsjswkw.pusher-roothide
 Name: Pusher
 Version: 3.0.1
@@ -128,5 +127,4 @@ Description: 将通知转发到其他设备
  .
  - 将通知转发到 Bark、钉钉、企业微信、飞书、邮件、Gotify、Webhook 等
  - 写 JavaScript 自定义转发服务
-
 
