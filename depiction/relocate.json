@@ -14,6 +14,25 @@
     {
      "class": "DepictionSpacerView",
      "spacing": 16
+    },
+    {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 6,
+     "itemSize": "{207, 448}",
+     "screenshots": [
+      {
+       "accessibilityText": "插件设置",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/relocate-1-settings.png"
+      },
+      {
+       "accessibilityText": "系统服务",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/relocate-2-services.png"
+      },
+      {
+       "accessibilityText": "按应用设置",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/relocate-3-apps.png"
+      }
+     ]
     }
    ]
   },
@@ -28,6 +47,25 @@
     {
      "class": "DepictionSpacerView",
      "spacing": 16
+    },
+    {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 6,
+     "itemSize": "{207, 448}",
+     "screenshots": [
+      {
+       "accessibilityText": "Plugin settings",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/relocate-1-settings.png"
+      },
+      {
+       "accessibilityText": "System services",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/relocate-2-services.png"
+      },
+      {
+       "accessibilityText": "Per-app list",
+       "url": "https://jzksnsjswkw.github.io/repo/depiction/shots/relocate-3-apps.png"
+      }
+     ]
     }
    ]
   }
